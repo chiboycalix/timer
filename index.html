@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="question">
+        <p>Write an algorithm that starts a timer (that counts up in seconds, minutes and hours). This timer can be started, paused/continued or stopped.</p>
+        <ul>
+            <li>When the timer is paused and then continued, it should resume from where it has stopped previously.</li>
+            <li>When a timer is stopped, it should still display the time at which it was stopped at until it is started again.</li>
+        </ul>
+    </div>
+    <div class="wrapper">
+        <div class="displayElement" id="displayDiv">
+             00 : 00 : 00 
+        </div>
+        <div class="links">
+            <a href="#" id="start">start</a>
+            <a href="#" id="pause">pause</a>
+            <a href="#" id="stop">stop</a>
+            <a href="#" id="resume">continue</a>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
